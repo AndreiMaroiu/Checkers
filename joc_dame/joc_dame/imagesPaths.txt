@@ -1,0 +1,7 @@
+none.png
+redpiece.png
+darkpiece.png
+redwithcrownpiece.png
+darkwithcrownpiece.png
+dot.png
+jump.png

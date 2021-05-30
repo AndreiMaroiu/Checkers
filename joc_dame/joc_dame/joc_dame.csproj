@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <RootNamespace>joc_dame</RootNamespace>
+    <AssemblyName>joc_dame</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\background.jpg" />
+    <None Remove="Images\darkpiece.png" />
+    <None Remove="Images\darkwithcrownpiece.png" />
+    <None Remove="Images\dot.png" />
+    <None Remove="Images\jump.png" />
+    <None Remove="Images\none.png" />
+    <None Remove="Images\redpiece.png" />
+    <None Remove="Images\redwithcrownpiece.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\background.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\darkpiece.png" />
+    <Resource Include="Images\darkwithcrownpiece.png" />
+    <Resource Include="Images\dot.png" />
+    <Resource Include="Images\jump.png" />
+    <Resource Include="Images\none.png" />
+    <Resource Include="Images\redpiece.png" />
+    <Resource Include="Images\redwithcrownpiece.png" />
+  </ItemGroup>
+
+</Project>

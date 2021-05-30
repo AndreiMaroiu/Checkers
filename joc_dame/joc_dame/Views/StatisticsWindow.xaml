@@ -1,0 +1,17 @@
+﻿<Window x:Class="joc_dame.Views.StatisticsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:joc_dame.Views"
+        mc:Ignorable="d"
+        Title="StatisticsWindow" Height="200" Width="300">
+    <Grid>
+        <Label Content="Statistics" HorizontalContentAlignment="Center" HorizontalAlignment="Center" Margin="0,21,0,0" VerticalAlignment="Top" Width="114"/>
+        <Label Content="Red" HorizontalAlignment="Left" Margin="71,66,0,0" VerticalAlignment="Top"/>
+        <Label Content="Black" HorizontalAlignment="Left" Margin="71,117,0,0" VerticalAlignment="Top"/>
+        <Label Content="{Binding RedWins}" HorizontalAlignment="Left" Margin="155,66,0,0" VerticalAlignment="Top" Width="56"/>
+        <Label Content="{Binding DarkWins}" HorizontalAlignment="Left" Margin="155,117,0,0" VerticalAlignment="Top" Width="56"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,123 @@
+﻿<Window x:Class="joc_dame.Views.About"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:joc_dame.Views"
+        mc:Ignorable="d"
+        Title="About" Height="450" Width="800">
+    <Grid>
+        <Label Content="How to play" FontSize="20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Height="40" Width="172"/>
+
+        <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="10,103,10,32">
+            <TextBlock TextWrapping="Wrap" FontSize="20" Padding="20" Height="1513">
+                Checkers is a fun, challenging, and relatively easy to learn game. <LineBreak/><LineBreak/>
+                Game Pieces and Board Checkers is a board game played 
+                between two people on an 8x8 checked board like the one shown below. <LineBreak/><LineBreak/>
+                Each player has 12 pieces that are like flat round disks that fit inside each of the boxes on the board. 
+                The pieces are placed on every other dark square and then staggered by rows, like shown on the board. <LineBreak/><LineBreak/>
+                Each Checkers player has different colored pieces. Sometimes the pieces are black and red or red and white. <LineBreak/><LineBreak/>
+                <Bold>Taking a Turn</Bold> <LineBreak/><LineBreak/>
+                Typically the darker color pieces moves first. Each player takes their turn by moving a piece. 
+                Pieces are always moved diagonally and can be moved in the following ways: <LineBreak/>
+                <BulletDecorator>
+                    <BulletDecorator.Bullet>
+                        <Ellipse Height="10" Width="10" Fill="Black"/>
+                    </BulletDecorator.Bullet>
+                </BulletDecorator>
+                Diagonally in the forward direction (towards the opponent) to the next dark square. <LineBreak/>
+                <BulletDecorator>
+                    <BulletDecorator.Bullet>
+                        <Ellipse Height="10" Width="10" Fill="Black"/>
+                    </BulletDecorator.Bullet>
+                </BulletDecorator>
+                If there is one of the opponent's pieces next to a piece and an empty space on the other side,
+                you jump your opponent and remove their piece. You can do multiple jumps if they are lined up in the 
+                forward direction. *** note: if you have a jump, you have no choice but to take it. <LineBreak/><LineBreak/>
+                <Bold>King Pieces </Bold><LineBreak/>
+                The last row is called the king row. If you get a piece across the board to the opponent's king row, 
+                that piece becomes a king. Another piece is placed onto that piece so it is now two pieces high. 
+                King pieces can move in both directions, forward and backward. <LineBreak/>
+                Once a piece is kinged, the player must wait until the next turn to jump out of the king row. <LineBreak/><LineBreak/>
+                <Bold>Winning the Game </Bold><LineBreak/>
+                You win the game when the opponent has no more pieces or can't move (even if he/she still has pieces). 
+                If neither player can move then it is a draw or a tie. <LineBreak/><LineBreak/>
+                <Bold>Checkers Strategy and Tips </Bold><LineBreak/>
+                <BulletDecorator>
+                    <BulletDecorator.Bullet>
+                        <Ellipse Height="10" Width="10" Fill="Black"/>
+                    </BulletDecorator.Bullet>
+                </BulletDecorator>
+                Sacrifice 1 piece for 2: you can sometimes bait or force the opponent to take one of your pieces enabling you to then take 2 of their pieces. <LineBreak/>
+                <BulletDecorator>
+                    <BulletDecorator.Bullet>
+                        <Ellipse Height="10" Width="10" Fill="Black"/>
+                    </BulletDecorator.Bullet>
+                </BulletDecorator>
+                Pieces on the sides are valuable because they can't be jumped. <LineBreak/>
+                <BulletDecorator>
+                    <BulletDecorator.Bullet>
+                        <Ellipse Height="10" Width="10" Fill="Black"/>
+                    </BulletDecorator.Bullet>
+                </BulletDecorator>
+                Don't bunch all your pieces in the middle or you may not be able to move, and then you will lose. <LineBreak/>
+                <BulletDecorator>
+                    <BulletDecorator.Bullet>
+                        <Ellipse Height="10" Width="10" Fill="Black"/>
+                    </BulletDecorator.Bullet>
+                </BulletDecorator>
+                Try to keep your pieces on the back row or king row for as long as possible, to keep the other player from gaining a king. <LineBreak/>
+                <BulletDecorator>
+                    <BulletDecorator.Bullet>
+                        <Ellipse Height="10" Width="10" Fill="Black"/>
+                    </BulletDecorator.Bullet>
+                </BulletDecorator>
+                Plan ahead and try to look at every possible move before you take your turn. <LineBreak/>
+                <BulletDecorator>
+                    <BulletDecorator.Bullet>
+                        <Ellipse Height="10" Width="10" Fill="Black"/>
+                    </BulletDecorator.Bullet>
+                </BulletDecorator>
+                Practice: if you play a lot against a lot of different players, you will get better. <LineBreak/><LineBreak/>
+                <Bold>Fun Facts about Checkers</Bold><LineBreak/>
+                <BulletDecorator>
+                    <BulletDecorator.Bullet>
+                        <Ellipse Height="10" Width="10" Fill="Black"/>
+                    </BulletDecorator.Bullet>
+                </BulletDecorator>
+                The game of checkers is called "draughts" in many countries.<LineBreak/>
+                <BulletDecorator>
+                    <BulletDecorator.Bullet>
+                        <Ellipse Height="10" Width="10" Fill="Black"/>
+                    </BulletDecorator.Bullet>
+                </BulletDecorator>
+                It comes from an old game called Alquerque. <LineBreak/>
+                <BulletDecorator>
+                    <BulletDecorator.Bullet>
+                        <Ellipse Height="10" Width="10" Fill="Black"/>
+                    </BulletDecorator.Bullet>
+                </BulletDecorator>
+                In 1535 the rule that you had to jump when presented with a jump opportunity was added to the game. <LineBreak/>
+                <BulletDecorator>
+                    <BulletDecorator.Bullet>
+                        <Ellipse Height="10" Width="10" Fill="Black"/>
+                    </BulletDecorator.Bullet>
+                </BulletDecorator>
+                Chess can be played on the same game board as checkers. <LineBreak/>
+                <BulletDecorator>
+                    <BulletDecorator.Bullet>
+                        <Ellipse Height="10" Width="10" Fill="Black"/>
+                    </BulletDecorator.Bullet>
+                </BulletDecorator>
+                The game Chinese Checkers has very little to with Checkers and was invented by the Germans, not the Chinese.<LineBreak/>
+                <BulletDecorator>
+                    <BulletDecorator.Bullet>
+                        <Ellipse Height="10" Width="10" Fill="Black"/>
+                    </BulletDecorator.Bullet>
+                </BulletDecorator>
+                There are lots of different variants of checkers including a version that is played on a 10x10 board with 20 pieces per player.
+            </TextBlock>
+        </ScrollViewer>
+        <Label Content="Maroiu Andrei 10LF392 andrei.maroiu@student.unitbv.ro" FontSize="20" HorizontalAlignment="Left" Margin="29,56,0,0" VerticalAlignment="Top" Height="47" Width="527"/>
+    </Grid>
+</Window>
